@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relógio Digital</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <div class="watch-toggle-container">
+        <div class="watch-toggle-theme">
+            <div class="icon-moon" data-lucide="moon"></div>
+            <div class="icon-sun" data-lucide="sun"></div>
+            <div class="toggle-btn"></div>
+        </div>
+    </div>
+
+    <main class="watch-container">
+        <div class="watch-card">
+            <p class="watch-date">
+                <span id="days">day</span>
+                <span id="months">month</span>
+                <span id="years">year</span>
+            </p>
+            <p class="watch-time">
+                <span id="hours">00</span>
+                <span>:</span>
+                <span id="minutes">00</span>
+                <span class="text-sm">:</span>
+                <span id="seconds" class="text-sm">00</span>
+            </p>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+</body>
+</html>
