@@ -40,3 +40,8 @@ Feel free to submit issues or pull requests to improve the project.
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+## Live Demo
+
+Check out the live version of this project here:  
+[Digital Clock](https://oliveiradeveloper.github.io/digital-clock/)
